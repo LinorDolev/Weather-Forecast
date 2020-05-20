@@ -1,0 +1,41 @@
+.search{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.flex-grid{
+    position: relative;
+    top: -190px;
+}
+
+.home{
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-bar{
+    width: 40%;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.search-container{
+    padding: 20px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.icon-gray-heart{
+    -webkit-text-fill-color: gray;
+}
+
+.icon-red-heart{
+    -webkit-text-fill-color: rgba(239, 10, 255, 0.53);
+}
+
+.toggle-degrees{
+    position: relative;
+}

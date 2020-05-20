@@ -1,0 +1,24 @@
+.left-container{
+    --foreground: rgba(255, 255, 255, 0.84);
+    --background: rgba(216, 19, 255, 0.56);
+    border-style: solid;
+    border-color: var(--foreground);
+    min-width: 200px;
+    min-height: 200px;
+    position: absolute;
+    left: 5vw;
+    background-color: var(--background);
+    -webkit-text-fill-color: var(--foreground);
+    padding: 30px;
+    border-radius: 2rem;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center-text{
+    font-size: 57px;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: var(--font);
+
+    -webkit-text-fill-color: var(--color-primary);
+}
